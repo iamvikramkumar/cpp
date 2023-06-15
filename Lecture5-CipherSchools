@@ -1,1 +1,18 @@
+#include<iostream>
+using namespace std;
 
+int main()
+{
+ //Array can be used to store multiple values in a single variable name
+ //int x;
+ //int a[5];  //The indexing of array start from o not 1.
+   
+   int a,b,c,d,e;
+
+   cout<<"Give 5 integer as input " <<endl;
+   cin >>a>>b>>c>>d>>e;
+   cout << "The integers in reverse order are : " <<e <<d <<c <<b <<a;
+   return 0;
+
+
+}
